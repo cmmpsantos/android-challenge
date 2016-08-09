@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorRepoTitle">#0080ff</color>
+    <color name="colorRepoText">#ffffff</color>
+    <color name="colorListTitle">#0080ff</color>
+    <color name="commitRowName">#ffffff</color>
+    <color name="commitRowDate">#e9e9e9</color>
+    <color name="commitRowDivider">#808080</color>
+    <color name="commitLabel">#0080ff</color>
+    <color name="commitText">#ffffff</color>
+</resources>

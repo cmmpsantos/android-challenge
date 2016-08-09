@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android Challenge</string>
+    <string name="commits_list">List of recent commits</string>
+    <string name="title_activity_commit">Commit Details</string>
+    <string name="commit_sha">SHA:</string>
+    <string name="commit_author_name">Commit auhtor name:</string>
+    <string name="commit_author_date">Commit author date:</string>
+    <string name="commit_committer_name">Committer name:</string>
+    <string name="commit_committer_date">Committer date:</string>
+    <string name="commit_message">Commit message</string>
+    <string name="commit_button_website">View on GitHub</string>
+    <string name="commit_button_back">Go back</string>
+</resources>
