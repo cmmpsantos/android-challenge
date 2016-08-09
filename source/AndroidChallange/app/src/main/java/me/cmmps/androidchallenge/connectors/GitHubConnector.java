@@ -90,7 +90,7 @@ public class GitHubConnector {
                 httpConn.setConnectTimeout(10000);
                 httpConn.setRequestMethod("GET");
                 // Add authorization header
-                httpConn.addRequestProperty("Authorization", "token " + GITHUB_AUTH_TOKEN);
+                //httpConn.addRequestProperty("Authorization", "token " + GITHUB_AUTH_TOKEN);
                 httpConn.connect();
 
                 int httpResponseCode = httpConn.getResponseCode();

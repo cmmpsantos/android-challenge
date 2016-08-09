@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.LinearLayoutManager;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements RVAdapterListener
 
                 }
                 else {
+                    Log.e("ERROR", "Response: " + requestResponse);
                     // This is just a demo. Let's then ignore the list of errors, just say an error occurred.
                     Toast.makeText(context, "An error occurred!", Toast.LENGTH_LONG).show();
                 }
